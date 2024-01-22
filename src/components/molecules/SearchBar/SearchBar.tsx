@@ -1,5 +1,5 @@
-import Input from "../../atoms/Input/Input"
-import Button from "../../atoms/Button/Button"
+import Input from "@app/components/atoms/Input/Input";
+import Button from "@app/components/atoms/Button/Button";
 import './style.css'
 
 const SearchBar = () => {

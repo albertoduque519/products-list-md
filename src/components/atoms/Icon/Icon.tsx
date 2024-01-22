@@ -1,14 +1,10 @@
-import SearchIcon from '../../../assets/search.svg?react'
-import HeartIcon from '../../../assets/heart.svg?react'
-import ArrowRightIcon from '../../../assets/arrowRight.svg?react'
-import InfoIcon from '../../../assets/info.svg?react'
-import FlagIcon from '../../../assets/flag.svg?react'
-import LogoIcon from '../../../assets/logo.svg?react'
+import { SearchIcon } from './SearchIcon'
+import { InfoIcon } from './InfoIcon'
+import { FlagIcon } from './FlagIcon'
+import { LogoIcon  } from './LogoIcon'
 
-const iconComponents: { [key: string]: React.FC<React.SVGProps<SVGSVGElement>> } = {
+const iconComponents: { [key: string]: React.FC<React.SVGProps<JSX.Element>> } = {
     search: SearchIcon,
-    heart: HeartIcon,
-    arrowRight: ArrowRightIcon,
     info: InfoIcon,
     flag: FlagIcon,
     logo: LogoIcon,

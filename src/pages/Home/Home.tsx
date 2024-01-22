@@ -14,7 +14,7 @@ const Home = () => {
   return (
     <>
       <DefaultLayout>
-        <CardsSection items={products} title="Últimos productos" subtitle="Novedades primavera 2024" />
+        <CardsSection items={products} title="Ultimos productos" subtitle="Novedades Televisores 2024" />
         <CardsSection items={[...products].reverse()} highlighted title="Destacados" subtitle="Best sellers y ofertas" />
       </DefaultLayout>
     </>
