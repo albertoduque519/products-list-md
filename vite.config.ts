@@ -5,6 +5,7 @@ import path from 'path';
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: '/products-list-md/',
   resolve: {
     alias: {
       '@app': path.resolve(__dirname, './src'),
